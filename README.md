@@ -30,6 +30,6 @@ The client has requested a landing page that is optimized for search engines and
 
 ### Screenshot
 
-![screenshot](/assets/images/screenshot_horiseon.jpg)
+![screenshhot](/Develop/assets/images/screenshot-horiseon-challenge.png)
 
 ## Contact
