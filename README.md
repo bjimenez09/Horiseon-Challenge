@@ -27,9 +27,12 @@ The client has requested a landing page that is optimized for search engines and
 
 ### Website Link
 
+https://github.com/bjimenez09/Horiseon-Challenge
 
 ### Screenshot
 
 ![screenshhot](/Develop/assets/images/screenshot-horiseon-challenge.png)
 
 ## Contact
+
+[Brandon Jimenez GitHub Profile](https://github.com/bjimenez09)
