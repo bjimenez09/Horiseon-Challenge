@@ -2,7 +2,7 @@
 
 ## Description
 
-For this challenge, I was tasked with refactoring the codebase for Horiseon, a fictional marketing agency. 
+For this challenge, the task is to refactor the codebase for Horiseon, a fictional marketing agency. 
 
 ### Acceptance Criteria
 
