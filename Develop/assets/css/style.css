@@ -1,13 +1,21 @@
+/* UNIVERSAL */
+/* Styling across the entire webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*-------------------------------------------------------------------------------------------------------------*/
+/* BODY */
+/* Style for the body's background color */
 body {
     background-color: #d9dcd6;
 }
 
+/*-------------------------------------------------------------------------------------------------------------*/
+/* HEADER */
+/* Styling for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,41 +23,40 @@ body {
     color: #ffffff;
 }
 
+/* Styling for just the text "Horiseon" */
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styling for just the nav section of the header  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+/* Styling in order for the list items to 
+display inline-block with just a left side 
+margin*/
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+/* Styling for interior navigation hyperlink */
+.header a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*-------------------------------------------------------------------------------------------------------------*/
+/* <FIGURE> */
+/* Styling for the class hero which is a background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,13 +66,35 @@ p {
     background-position: center;
 }
 
+/*-------------------------------------------------------------------------------------------------------------*/
+/* <MAIN> */
+/* Styling for the class "content" */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content article {
+/* Styling for just the p element under the class "content" */
+.content p {
+    font-size: 16px;
+}
+
+/* Styling for the images to float left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Styling for the images to float right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Styling for the text, margin, and padding 
+of the text box's in the <main>  */
+.search-online-social {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -74,25 +103,21 @@ p {
     color: #ffffff;
 }
 
-.content img {
+/* Styling for the images in the <main> */
+.search-online-social img {
     max-height: 200px;
 }
 
-.content h2 {
+
+/* Styling for the header in the <main> */
+.search-online-social h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*-------------------------------------------------------------------------------------------------------------*/
+/* <ASIDE> */
+/* Styling for the class "benefits" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +129,29 @@ p {
     background-color: #2589bd;
 }
 
-.benefit {
+/* Styling for each section in the <aside> */
+.lead-brand-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff;   
 }
 
-.benefit h3 {
+/* Styling for each header in the <aside> */
+.lead-brand-cost h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 18.72px;
 }
 
-.benefit img {
+/* Stying for each img in the <aside> */
+.lead-brand-cost img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px;  
 }
 
+/*-------------------------------------------------------------------------------------------------------------*/
+/* FOOTER */
+/* Styling for the class "footer" */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +159,7 @@ p {
     text-align: center;
 }
 
+/* Styling for the header in class "footer" */
 .footer h2 {
     font-size: 20px;
 }
